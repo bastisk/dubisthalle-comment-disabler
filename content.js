@@ -1,5 +1,5 @@
 setInterval(() => {
   try {
-    document.getElementById("comments")[0].style.display = "none";
+    document.getElementById("comments").style.display = "none";
   } catch (e) {}
 }, 2000);
